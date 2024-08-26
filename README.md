@@ -38,5 +38,14 @@ Git is the tool that developers use on their local machines to manage code and v
 GitHub is a platform that hosts Git repositories online, enabling developers to collaborate, manage projects, and share code with others. It adds features like pull requests, issue tracking, and social networking for developers.
 
 f. What does git diff do?
+
+The git diff command in Git is used to show the differences between various states of a repository. It displays the changes between two commits, the changes between your working directory and the staging area, or the changes between the staging area and the last commit.   
+
 g. What is the main branch?
+
+The main branch is the primary branch in a Git repository that holds the stable, production-ready code. It is the default branch created when initializing a new repository and serves as the central integration point for new features and bug fixes. 
+
+
 h. Besides our initial commit if it is a new repository, should we directly push our changes directly into the main branch?
+
+No, we should not push changes directly to the main branch, especially in a collaborative or production environment. Instead, we should create separate branches for new features, bug fixes, or any other changes. 
